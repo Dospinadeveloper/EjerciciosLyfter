@@ -1,0 +1,22 @@
+Este commit lo hace el github por defecto al iniciar
+
+commit d47d435ee524f0c2ffb8344928fcea6dce51dff3
+Author: Dospinadeveloper <ospinariosduberney@gmail.com>
+Date:   Sat Apr 18 23:21:29 2026 -0400
+
+    Initial commit
+----------------------------------------------------------------------------------------------------
+Este commit lo hace al crear el repositorio y subir los ejercicios que llevo entregados
+
+commit 5bccdba1b455d10b4b89702fc327c06c78dbc358 (origin/main, origin/HEAD, main, ejercicios-listos)
+Author: Duberney <ospinariosduberney@gmail.com>
+Date:   Sat Apr 18 23:28:01 2026 -0400
+
+    Uploading first exercises
+----------------------------------------------------------------------------------------------------
+Este commit se hace para hacer la primera entrega de git
+commit 7ac4e4ec423ee203ea93b2fbe9d6020e7cc77736 (HEAD -> past-exercises, origin/past-exercises)
+Author: Duberney <ospinariosduberney@gmail.com>
+Date:   Sun Apr 19 00:31:21 2026 -0400
+
+    subiendo cambios para prueba
