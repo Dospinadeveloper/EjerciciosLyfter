@@ -1,0 +1,12 @@
+Ver Un video en Youtube
+1. Inicio
+2. Si tengo computador:
+	1. Ingresar a Youtube.com
+	2. Busco el video que quiero ver
+
+3.  Sino, si tengo smartphone, tablet o tv:
+	1. Abro la app de Youtube
+	2. Busco el video que quiero ver
+
+4.  Reproducir el video
+Fin

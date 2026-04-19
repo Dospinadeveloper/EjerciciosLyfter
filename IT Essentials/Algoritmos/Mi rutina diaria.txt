@@ -1,0 +1,32 @@
+Mi rutina diaria
+
+1.  Inicio
+	
+2.  Mientras el baño no esté libre:
+	1.  Me acuesto de nuevo
+3.  Si el baño está libre:
+	1.  Me ducho
+	2.  Me organizo 
+4.  Llevo las niñas al colegio
+5.  Si es la hora de entrada:
+	1. Dejo las niñas en el colegio
+6 Sino:
+	1.  Espero la hora de entrada
+7.  Me desplazo hasta mi trabajo
+
+8.  Si hay entregas para hacer:
+	1.  Cargo el carro con la respectiva entrega
+	2.  Me desplazo hacia el lugar de entrega
+		1.  Si hay alguna inconsistencia en el lugar de entrega:
+			1.  Reporto a soporte la inconsistencia
+			2.  Procedo a hacer la devolucion a la tienda
+			3.  Llego a la tienda y hago el procedimiento para la devolucion
+		2.  sino:
+			1.  Hago la entrega
+			2.  Regreso a mi centro de acopio
+		
+9.  Sino:
+	1.  Espero que hayan viajes
+
+
+10.  Fin
