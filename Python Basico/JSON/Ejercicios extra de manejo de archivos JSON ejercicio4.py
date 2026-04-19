@@ -39,6 +39,5 @@ def main():
     data = load_data('pokemon.json')
     calculate_averages_by_type(data)
 
-#Estoy probando git
 if __name__ == "__main__":
     main()
