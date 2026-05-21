@@ -1,0 +1,109 @@
+----------------------Ejercicios de Pseudocódigo--------------------------------
+Ejercicio de Pseudocódigo (1)
+
+Cree un pseudocódigo que le pida un precio de producto al usuario, 
+calcule su descuento y muestre el precio final tomando en cuenta que:
+Si el precio es menor a 100, el descuento es del 2%.
+Si el precio es mayor o igual a 100, el descuento es del 10%.
+Ejemplos:
+120 → 108
+40 → 39.2
+--------------------------------------------------------------------------------
+Inicio
+
+1.  Definir  precio_de_produto
+2.  Definir  descuento
+3.  Definir  precio_final
+4.  Mostrar  "Ingrese el precio del producto"
+5.  Pedir    precio del producto
+6.  Si (precio_de_produto < 100) entonces:
+	1. descuento = precio_de_produto * 0.02
+	2. Precio_final = precio_de_produto - descuento
+	3. Mostrar precio_final
+7  Sino:
+	Si (precio_de_produto >= 100) entonces:
+		1. Descuento = precio_de_produto * 0.10
+		2. precio_final = precio_de_produto - descuento
+		3. Mostrar precio_final
+	Finsi
+8.  FinSi	
+9. Fin
+
+---------------------------------------------------------------------------------
+Ejercicio de Pseudocódigo (2)
+
+Cree un pseudocódigo que le pida un tiempo en segundos al usuario 
+y calcule si es menor o mayor a 10 minutos. 
+Si es menor, muestre cuantos segundos faltarían para llegar a 10 minutos. 
+Si es mayor, muestre “Mayor”. Si es exactamente igual, muestre “Igual”.
+Ejemplos:
+1040 → Mayor
+140 → 460
+600 → Igual
+599 → 1
+---------------------------------------------------------------------------------
+Inicio
+
+1.  Definir  tiempo_en_segundos
+2.  Definir  tiempo_base
+3.  tiempo_base = 600
+4.  Mostrar  "Ingrese el tiempo en segundos"
+5.  Pedir    tiempo_en_segundos
+
+6.  Si (tiempo_en_segundos < tiempo_base) entonces:
+	1. Mostrar "Le faltan"
+	2. Mostrar tiempo_base - tiempo_en_segundos
+	3. Mostrar "Para llegar a"
+	4. Mostrar tiempo_base
+
+7  Sino:
+	1. Si (tiempo_en_segundos > tiempo_base) entonces:
+		1. Mostrar "Mayor"
+	2. Sino:
+		1. Si (tiempo_en_segundos == tiempo_base) entonces:
+		1. Mostrar "Igual"
+
+	3. Finsi
+
+8.  FinSi	
+9. Fin
+
+-----------------------------------------------------------------------------------
+Ejercicio de Pseudocódigo (3)
+
+Cree un algoritmo que le pida un numero al usuario, 
+y realice una suma de cada numero del 1 hasta ese número ingresado. 
+Luego muestre el resultado de la suma.
+5 → 15 (1 + 2 + 3 + 4 + 5)
+3 → 6 (1 + 2 + 3)
+12 → 78 (1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 + 10 + 11 + 12)
+-----------------------------------------------------------------------------------
+
+Inicio
+
+1.  Definir  numero
+2.  Definir  contador
+3.  Definmir contador2
+4.  Mostrar  "Ingrese un numero"
+5.  Pedir    numero
+6.  contador = 1
+7.  contador2 = 0 
+8.  Mientras (contador <= numero) Entonces:
+	1. contador2 = contador2 + contador
+	2. contador = contador + 1
+9.  FinMientras
+10.  Mostrar contador2
+
+
+11. Fin
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,27 @@
+Cree un algoritmo de como se prepara para ir a su viaje de diversión favorito
+--------------------------------------------------------------------------------
+Me preparo para un viaje al parque acuatico con mi familia
+
+1.  Inicio
+
+2.  Defino el lugar, fecha, hora de salida y regreso a casa
+3.  Reviso que mi carro esté en condiciones optimas paara el viaje	
+4.  Si mi carro no está en condiciones optimas para viajar:
+	1.  Hago los arreglos pertinentes con el fin de evitar contratiempos
+5.  Sino:
+	1.  El carro esta en condiciones optimas para el viaje
+6.  Hago una lista de cosas necesarias para mi viaje
+
+7.  Si hay cosas pendientes por comprar:	
+	1.  Me desplazo hasta el centro comercial o lugar donde haré las compras
+8.  Sino
+	1.  Todo esta listo para el viaje
+9.  Llega el dia del viaje
+10.  Revisar el combustible
+11.  Si el carro esta full de combustible:
+	1.  Inicio el viaje
+12.  Sino
+	1.  Me dirijo a una estacion de gasolina para llenar el tanque
+	2.  inicio el viaje
+
+13.  Fin

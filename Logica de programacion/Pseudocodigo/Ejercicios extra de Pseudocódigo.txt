@@ -1,0 +1,113 @@
+----------------------Ejercicios extra de Pseudocódigo-----------------------------
+Ejercicio de Pseudocódigo (1)
+
+Cree un algoritmo que le pida 2 números al usuario, 
+los guarde en dos variables distintas (primero y segundo) 
+y los ordene de menor a mayor en dichas variables.
+Ejemplos:
+A: 56, B: 32 → A: 32, B: 56
+A: 24, B: 76 → A: 24, B: 76
+A: 45, B: 12 → A: 12, B: 45
+------------------------------------------------------------------------------------
+Inicio
+
+1.  Definir  a
+2.  Definir  b
+3.  Definir  numero
+4.  Definir  c
+5.  Mostrar  "Ingrese un numero"
+6.  Pedir    numero
+7.  a = numero
+8.  Mostrar  "Ingrese un numero"
+9.  Pedir    numero
+10.  b = numero
+11.  si (a > b)entonces:
+	1. c = a
+	2. a = b
+	3. b = c
+12 Sino:
+	1. a = a
+	2. b = b
+13   Finsi
+  	
+
+14. Fin
+-------------------------------------------------------------------------------------
+Ejercicio de Pseudocódigo (2)
+Cree un algoritmo que le pida al usuario una velocidad en km/h y la convierta a m/s. 
+Recuerda que 1 km == 1000m y 1 hora == 60 minutos * 60 segundos.
+Ejemplos:
+73 → 20.27
+50 → 13.88
+120 → 33.33
+--------------------------------------------------------------------------------------
+Inicio
+
+1.  Definir  kh
+2.  Definir  ms
+3.  Definir  h
+4.  Definir  k
+5.  h = 3600
+6.  k = 1000
+7.  Mostrar  "Ingrese velocidad en k/h"
+8.  Pedir numero
+9.  kh = numero
+10.  ms = kh * k / h
+11.  Mostrar kh
+12.  mostrar "k/h¨:"
+13.  Mostrar ms
+14.  "m/s"
+ 	
+
+14. Fin
+-----------------------------------------------------------------------------------
+Ejercicio de Pseudocódigo (3)
+Cree un algoritmo que le pregunte al usuario por el sexo de 6 personas, 
+ingresando 1 si es mujer o 2 si es hombre, 
+y muestre al final el porcentaje de mujeres y hombres.
+Ejemplos:
+1, 1, 1, 2, 2, 2 → 50% mujeres y 50% hombres
+1, 1, 2, 2, 2, 2 → 33.3% mujeres y 66.6% hombres
+1, 1, 1, 1, 1, 2 → 83.3% mujeres y 16.6% hombres
+-----------------------------------------------------------------------------------
+Inicio
+
+1.  Definir  cantidad
+2.  Definir  contador
+3.  Definir  mujeres
+4.  Definmir hombres
+5.  Definir  p_mujeres
+6.  Definmir p_hombres
+7.  cantidad = 6
+8.  contador = 1
+9.  mujeres = 0
+10. hombres = 0
+
+11.  Mostrar  "Ingrese el genero de 6 personas" 
+12. Mostrar  "representados de la siguiente manera: 1→ Mujer, 2→ Hombre"
+
+13. Mientras (contador <= cantidad) Entonces:
+	1. Pedir genero
+	2. Si genero = 2 entonces:	
+           1. hombres = hombres + 1 
+        3  Sino:
+	   1. mujeres = mujeres + 1
+14. contador = contador + 1
+15. FinMientras
+
+16. p_hombres= hombres / cantidad * 100
+17. p_mujeres= mujeres / cantidad * 100
+
+18. mostrar p_mujeres
+19. mostrar "% mujeres y"
+20. mostrar p_hombres
+21. mostrar "% hombres"
+
+22. Fin
+
+
+
+
+
+
+

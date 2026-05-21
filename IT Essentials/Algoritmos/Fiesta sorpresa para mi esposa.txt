@@ -1,0 +1,41 @@
+Cree un algoritmo como preparar una fiesta sorpresa para un amigo o familiar. 
+Considere si la persona está en casa o no, 
+si los invitados ya llegaron o no, 
+qué hacer mientras esperan, 
+y cómo finaliza la fiesta
+----------------------------------------------------------------------------------------------------------------------------------
+Fiesta sorpresa para mi esposa
+
+1.  Inicio
+
+2.  Decido la tematica, lugar, fecha y hora de la fiesta antes de llamar sus amigos
+	
+	
+3.  Mientras mi esposa esta en casa:
+	1.  Espero que se vaya para poder gestionar
+3.  Si mi esposa ya se fue:
+	1.  Reviso la lista de contactos a quienes invitaré
+	2.  Empiezo a llamar a cada persona que sera invitada a la fiesta
+		1.  Si puedo contactar a cada amigo:
+			1.  Le hago la invitacion oficial a la fiesta
+			2.  Hablamos acerca de los detalles de la fiesta como comida, bebida, etc
+		2.  sino:
+			1.  Postergo la llamada para mas tarde  
+4.  Ya se concretó quienes asistirán a la fiesta
+
+
+5.  Si llega el dia y la hora de la fiesta y no han llegado los invitados:
+	1. Llamo a su mejor amiga para que la distraiga mientras llegan todos los invitados
+	2. Por cada una de las personas que no han llegado
+		1.  Se llama a confirmar la asistencia
+			1.  Si el amigo conmfirma la asistencia:
+				1.  Se gestiona para retener mi esposa en la calle mientras llega cada uno de los invitados
+			2.  sino confirma la asistencia
+				1.  Se descarta la asistencia de esta persona
+6.  Si todas las personas invitadas y confirmadas ya estan en casa
+	1.  Llamamos su mejor amiga para darle via libre a que llegue a casa, porque ya estamos todos
+	2.  Mientras llega ultimamos detalles acerca de que hacer cuando llegue a casa
+7.  Cuando llegue le damos la sorpresa
+8.  Comemos, bebemos, bailamos
+9.  Todos y cada uno se van a sus casas
+10.  Fin
