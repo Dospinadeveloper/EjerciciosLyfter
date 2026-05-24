@@ -65,7 +65,9 @@ def view_all_students(students):
         print("No students registered.")
         return
     for s in students:
-        print(f"Name: {s['name']} | Section: {s['section']} | Avg: {s['average']:.2f}")
+        #print(f"Name: {s['name']} | Section: {s['section']} | Avg: {s['average']:.2f}")
+        print(f"Name: {s['name']} | Section: {s['section']} | Spanish: {s['grades']['Spanish']} | English: {s['grades']['English']} | Social Studies: {s['grades']['Social Studies']} | Science: {s['grades']['Science']} | Avg: {s['average']:.2f}")
+        #print(f"Name: {s['name']} | Section: {s['section']} | Spanish: {s['grades']['Spanish']} | Avg: {s['average']:.2f}")
 
 def view_top_three(students):
     top = sorted(students, key=lambda x: x['average'], reverse=True)[:3]

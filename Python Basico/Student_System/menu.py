@@ -29,6 +29,7 @@ def show_main_menu(students):
         elif choice == "6":
             imported_data = data.import_from_csv()
             if imported_data:
+                students.clear()
                 students.extend(imported_data)
         elif choice == "7":
             actions.remove_student(students)
