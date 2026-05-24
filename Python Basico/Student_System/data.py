@@ -37,7 +37,7 @@ def import_from_csv():
                 student = {
                     "name": row['Name'],
                     "section": row['Section'],
-                    "Grades": {
+                    "grades": {
                         "Spanish": float(row['Spanish']),
                         "English": float(row['English']),
                         "Social Studies": float(row['Social Studies']),
